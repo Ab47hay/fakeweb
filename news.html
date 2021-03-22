@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+
+<meta charset="utf-8">
+<meta name="viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>News</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/news.css">
+</head>
+
+<body>
+
+	<!-------------- Navigation-------------->
+	<div class="container">
+		<header>
+			<nav class="top-nav">
+				<a class="logo" href="#"><img src="./images/Fake-News-Logo.png"
+					alt="Fake News
+                            Logo"></a>
+				<ul class="top-menu">
+					<li><a class="line" href="index.html">Home</a></li>
+					<li><a class="line" href="video.html">Video</a></li>
+					<li><a class="line  active" href="#">News</a></li>
+					<li><a class="line" href="about.html">About us</a></li>
+					<li><a class="line" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+<!--------- News card --------->
+<!--------- News card 1 starts here --------->
+		<div class="card">
+			<img src='images/news1.jpg' />
+			<h4 class='title'>New research project to explore rise of Covid misinformation and fake news on Twitter</h4>
+			<p class="description">
+				A new research project at Birmingham City University (BCU) will examine the spread of misinformation and fake news about the Covid-19 pandemic on social media platforms and the erosion of trust in authority.
+				<span class='more-news' id='news1'> Academics in the Birmingham Institute of Media and English at BCU have been awarded £77k from the Arts and Humanities Research Council (AHRC) to explore the prevalence of false and unverified information about coronavirus and how such news is spread on Twitter. An additional £19k of funding will be provided by BCU. <br> <br>The six-month project has been launched in response to a major increase in misinformation spread through unverified tweets, memes and articles which have been linked to assaults, arson and deaths. <br> Using specially developed linguistic software, researchers will wade through hundreds of thousands of posts, links and images on Twitter to find out how misinformation and ‘fake news’ is shared, interacted with, and spread more widely.<br> <br>
+				Two case studies will also be produced to detail the public reception of official messaging from government and public health leaders and assess the correlation between misinformation and trust in authority. <br> The project will produce a publicly available dashboard to show how misinformation is spread across social media, and the findings will be reported to government agencies to help inform future policy. <br> <br>
+				Dr Andrew Kehoe is leading the five-strong team of researchers working on the project. Dr Kehoe said: “Clear communication is vital during major crises such as the current pandemic, but this is not always easy to get right. What makes it even more of a challenge nowadays is the rapid spread of misinformation online: the so-called ‘infodemic’.
+				</span>
+			</p>
+			<input type='button' value='Read more' class="more-news-button"
+				onclick='more1()' id='tog1' />
+
+			<script >
+			var n1 = document.getElementById('news1');
+			var collapse1 = false;
+			var tog1 = document.getElementById('tog1');
+            function more1(){
+                  if(collapse1==true){
+                    n1.style.display = 'none'
+                    collapse1 = false;
+                    tog1.value = 'Read more';
+                }
+                else{
+                    n1.style.display = 'inline';
+                    collapse1 = true;
+                    tog1.value = 'Read less';
+                }
+            }
+			</script>
+		</div>
+<!------------- End of card 1 ends here ------------------->
+<!------------- Card 2 starts here------------------------->
+		<div class="card">
+
+			<img src='images/news2.jpg' />
+			<h4 class='title'>How the government is targeting coronavirus misinformation</h4>
+			<p class="description">
+				The NHS says it is working with web giants including Google and Facebook on ways to help promote “good advice” and counter misinformation during the coronavirus outbreak. 
+				The health service wants to ensure its guidance about the disease is to appear at the top of internet search results in an attempt to combat myths and rumours about the infection.
+				<span class='more-news' id='news2'>
+					As concern over fake news and conspiracy theories grows, searches for “coronavirus” on Google, Facebook and YouTube will now promote information from the health service or the World Health Organization. <br> <br>
+					The NHS said it had convinced Twitter to delete an account claiming to be a hospital and spreading false information. It is also concerned against homeopaths promoting alternative treatments online.
+					A dedicated cross-Whitehall unit has been set up to counter coronavirus-related misinformation, including from Russia and China. <br> <br>
+					The unit is setting out to “identify false information being deliberately spread online and to establish its scope, impact and whether it needs to be actively countered”, The Guardian says.
+					Oliver Dowden, the culture secretary, said defending the country from misinformation and digital interference was a top priority.Health Secretary Matt Hancock said the NHS’s efforts meant the public would receive accurate health information, “which is more crucial than ever as we continue our response to coronavirus”. <br> <br>
+					Last week a senior US State Department official, Lea Gabrielle, told Congress that Moscow was behind “swarms of online, false personas” spreading coronavirus falsehoods and that the “entire ecosystem of Russian disinformation is at play”.
+					According to The New York Times, online rumours include the suggestion that Taiwan was covering up virus deaths and that Bill Gates, the Microsoft co-founder who now runs a philanthropic organization, was behind the spread of the virus.<br> <br>
+					“I see misinformation about the coronavirus everywhere,” said Austin Chiang, a gastroenterologist at Jefferson University Hospital in Philadelphia. “Some people are panicking, and looking to magical cures, and other people are spreading conspiracies.”
+				</span>
+			</p>
+			<input type='button' value='Read more' class="more-news-button"
+				onclick='more2()' id='tog2' />
+			<script>
+			var n2 = document.getElementById('news2');
+			var collapse2 = false;
+			var tog2 = document.getElementById('tog2');
+			function more2(){
+				    if(collapse2==true){
+				        n2.style.display = 'none'
+			        collapse2 = false;
+			        tog2.value = 'Read more';
+			    }
+			    else{
+				        n2.style.display = 'inline';
+			        collapse2 = true;
+			        tog2.value = 'Read less';
+
+			    }
+			}
+            </script>
+		</div>
+<!------------- Card 2 ends here ------------------>
+<!------------- Card 3 stars here ----------------->
+		<div class="card">
+			<img src='images/vaccince.jpg' />
+			<h4 class='title'>COVID-19 Vaccines Don’t Have Patient-Tracking Devices</h4>
+			<p class="description">
+				VA video circulating on social media falsely claims that vaccines for COVID-19 have a microchip that “tracks the location of the patient.” The chip, which is not currently in use, would be attached to the end of a plastic vial and provide information only about the vaccine dose. It cannot track people.
+				<span class='more-news' id='news3'>
+					COVID-19 vaccines have begun rolling out, but so has misinformation about them.
+					A video claiming that the vials containing the vaccines have a microchip that “tracks the location of the patient” has been viewed more than 225,000 times on Facebook, according to data from CrowdTangle
+					That’s false. <br> <br>
+					The claim is based on a misrepresentation of an interview with Jay Walker, an executive for a medical device company called ApiJect.
+					That interview was posted in May on the website for the Christian Broadcasting Network, a nonprofit founded by conservative televangelist Pat Robertson. In the interview, Walker explained that his company had received a federal contract to ramp up production of its prefilled syringes so that they would be available for use in administering either vaccines or therapeutics for COVID-19. <br> <br>
+					The ApiJect syringes work like an eyedropper, Walker explained, with a plastic pouch as the vial. The syringes can also be made with an optional chip that could be attached to the end of the plastic vial to store information about its contents. The chip is an RFID tag, which is short for radio frequency identification, and requires a device to scan and read the data. <br> <br>
+					“What that chip does is it has the unique serial number for each dose,” Walker said in the original interview. “It is designed so that there is no counterfeiting. It is designed so that we’ll know exactly that the right dose hasn’t expired. However, that chip only refers to the dose — there’s no personal information, no patient information. It’s simply like a barcode, only we know instantaneously where and when that dose has been used.”
+					That portion of the interview wasn’t included in the video that’s currently circulating. Instead, the video includes the falsehood that the chips would be used to track the location of individual patients.
+					It’s unclear how that would even work, though, since the RFID tag is attached to the vial and can’t be injected into a patient. Steven Hofman, spokesman for ApiJect, told us in an interview that the idea of the RFID tags being used to track individuals is “beyond fantasy.” <br> <br>
+
+					In reality, the chip would allow those administering the vaccine to check that the dose hasn’t expired and isn’t counterfeit, Hofman said. “It’s incapable of collecting any personal information,” he said.
+
+					Also, it’s worth noting that ApiJect’s syringes aren’t being used for either the currently available vaccine developed by Pfizer and the German biotech company BioNTech or the next one up for emergency use authorization, which was developed by Moderna.
+
+					“Neither Moderna or Pfizer are using our syringe at this point,” Hofman said.
+
+					Despite the fact that the syringes aren’t currently being used for COVID-19 vaccines and the optional chips they use can’t track individuals, many Facebook users left comments on the video expressing a misunderstanding.
+
+					“Nope, never had flu shot, won’t take this either! Especially one with a tracking device. What a crock,” wrote one user.
+
+					The misconception that vaccines may be used as a vehicle to implant tracking devices isn’t new, though. At the beginning of the pandemic we wrote about a similar claim that anticipated Bill Gates would use a COVID-19 vaccine to track people with microchips. That was bogus, too.
+				</span>
+			</p>
+			<input type='button' value='Read more' class="more-news-button"
+				onclick='more3()' id='tog3' />
+			<script>
+                     var n3 = document.getElementById('news3');
+                     var collapse3 = true;
+                     var tog3 = document.getElementById('tog3');
+                     function more3(){
+                        if(collapse3==true){
+                            n3.style.display = 'none'
+                            collapse3 = false;
+                            tog3.value = 'Read more';
+                                      }
+                                else{
+                                    n3.style.display = 'inline';
+                                    collapse3 = true;
+                                    tog3.value = 'Read less';
+                                        
+                                }
+                            }
+                              
+                              
+            </script>
+		</div>
+<!------------- Card 3 ends here ------------------>
+<!------------- Card 4 starts here ---------------->
+		<div class="card">
+			<img src='images/queen.jpg' />
+			<h4 class='title'>Channel 4 defends ‘deepfake’ version of Queen’s speech as viewers threaten to boycott station</h4>
+			<p class="description">
+				The artificially rendered version of the monarch will deliver Channel 4’s alternative Christmas message by offering a stark warning about misinformation and fake news.</p>
+				<span class='more-news' id='news4'> The channel’s annual Christmas Day broadcast will appear to show the Queen, who will be played by actress Debra Stephenson, telling viewers: ‘On the BBC, I haven’t always been able to speak plainly and from the heart. ‘So, I am grateful to Channel 4 for giving me the opportunity to say whatever I like, without anyone putting words in my mouth.’<br>
+				<br>‘If there is a theme to my message today, it is trust, trust in what is genuine and what is not,’ she continued. ‘2020 has been a challenging year for us all, one thing that has sustained many of us is our families. ‘Which is why I was so saddened by the departure of Harry and Meghan.<br> <br> ‘There are few things more hurtful than someone telling you they prefer the company of Canadians.’ Since Channel 4 first shared the video online, some viewers branded the programme ‘disrespectful’ and many even threatened to boycott the TV station. ‘Channel 4 should be prosecuted for this. Boycott this channel. It’s against our heritage and culture. Treason,’ one tweeted.
+				</span>
+			</p>
+			<input type='button' value='Read more' class="more-news-button"
+				onclick='more4()' id='tog4' />
+			<script>
+                  var n4 = document.getElementById('news4');
+                  var collapse4 = false;
+                  var tog4 = document.getElementById('tog4');
+                  function more4(){
+                      if(collapse4==true){
+                          n4.style.display = 'none'
+                          collapse4 = false;
+                          tog4.value = 'Read';
+                      }
+                      else{
+                          n4.style.display = 'inline';
+                          collapse4 = true;
+                          tog4.value = 'Read less';
+                        
+                      }
+                  }
+            </script>
+		</div>
+<!------------- Card 4 ends here ------------------>
+<!------------- Card 5 starts here ---------------->
+		<div class="card">
+			<img src='images/twitter.jpg'/>
+			<h4 class='title'>CORONAVIRUS: TWITTER TO REMOVE FAKE CONTENT AND MISINFORMATION THAT COULD PLACE PEOPLE AT RISK</h4>
+			<p class="description">
+				Tweets which promote fake treatments for the coronavirus or deny expert guidance will be marked as harmful and removed, the social network site has said.
+				<span class='more-news' id='news5'> On Wednesday, Twitter updated its safety policy to prohibit tweets that provide misinformation regarding Covid-19 and could incite panic or harm efforts to combat the pandemic. <br>
+				<br>Under the new policy, the company will require users to remove any tweets that deny “expert guidance,” promote “fake or ineffective treatments,” or share “misleading content purporting to be from experts or authorities.”<br>
+				<br>In a blog post on i ts website, Twitter said: “We will enforce this in close coordination with trusted partners, including public health authorities and governments, and continue to use and consult with information from those sources when reviewing content.”<br>
+				<br>Twitter detailed a number of examples of the kinds of tweets that would be removed under the new rules, including the claim that social distancing is not effective and that walking outside is enough to disinfect you.<br>
+                <br>The new policy also bans tweets that claim the coronavirus does not infect children, that the news about washing your hands is propaganda for soap companies and that using essential oils will prevent the spread.<br>
+                <br>Also covered in the guidelines are “specific and unverified claims that incite people to action and cause widespread panic, social unrest or large-scale disorder,” as well as “specific and unverified claims made by people impersonating a government or health official or organisation.”
+				</span>
+			</p>
+
+			<input type='button' value='read more' class="more-news-button" onclick='more5()' id='tog5' />
+			<script>
+               var n5 = document.getElementById('news5');
+               var collapse5 = true;
+               var tog3 = document.getElementById('tog5');
+               function more5(){
+                   if(collapse5==true){
+                       n5.style.display = 'none'
+                       collapse5 = false;
+                       tog5.value = 'read more';
+                   }
+                   else{
+                       n5.style.display = 'inline';
+                       collapse5 = true;
+                       tog5.value = 'read less';                    
+                   }
+			   }          
+           </script>
+		</div>
+<!------------- Card 5 ends here ------------------>
+<!------------- Card 6 starts here ---------------->
+		<div class="card">
+			<img src='images/facebook.jpg' />
+			<h4 class='title'>Mark Zuckerburg announces Facebook portal dedicated to coronavirus information</h4>
+			<p class="description">
+				‘The top priority and focus for us is making sure people can get access to good information and trusted sources during the pandemic,’ says Facebook CEO.
+				<span class='more-news' id='news6'> Facebook on Wednesday announced a portal that aims to be a one-stop-shop for more than 2.5 billion users to find news and resources about the novel coronavirus, something it said was an effort to combat falsehoods and provide accurate updates about the fast-moving pandemic.<br>
+				<br> The new coronavirus information centre will roll out over the next 24 hours and will go at the top of users’ Facebook newsfeeds, chief executive Mark Zuckerberg said on a media call. He stressed that the most important service Facebook can provide right now is authoritative information – while removing hoaxes and other falsehoods that could cause immediate harm to public health.<br>
+				<br>“The top priority and focus for us has been making sure people can get access to good information and trusted sources during the pandemic,” he said. <br>
+				<br>Zuckerberg also said the company would allow thousands of content moderators who review banned content such as child pornography and terrorism to work from home, even though doing so could challenge the company’s efforts to protect its members from disturbing content. For weeks, moderators and other third-party contractors complained that while most full-time Facebook employees have been working from home, many contractors were still required to go to the office as recently as Monday. Content moderators circulated a petition on Facebook’s internal systems protesting the issue this week.
+
+
+				</span>
+			</p>
+			<input type='button' value='Read more' class="more-news-button" onclick='more6()' id='tog6' />
+			<script>
+               var n6 = document.getElementById('news6');
+               var collapse6 = false;
+               var tog6 = document.getElementById('tog6');
+               function more6(){
+                 if(collapse6==true){
+                     n6.style.display = 'none'
+                     collapse6 = false;
+                     tog6.value = 'More news';
+                 }
+                 else{
+                     n6.style.display = 'inline';
+                     collapse6 = true;
+                     tog6.value = 'Less news';
+                   
+                 }
+            }
+                            
+            </script>
+		</div>
+		<!------------- Card 6 ends here ------------------>
+
+		<!------------- 'More' button--------->
+		<a class="more" href="https://www.bbc.com" target='_blank'>More
+			News</a> <!------a link to bbc.com to be opened in a new tab-->
+
+
+		<!-------------- Footer-------------->
+
+		<footer>
+			<div class="row">
+				<div class="footer-section about">
+					<img src="./images/Fake-News-Logo-white.png" alt="Fake News Logo">
+					<p>This ‘Fake News’ website is to educate students in City of Westminster College. This website will help students to identify any fake news and rumours and will be able to see fake news videos and images. </p>
+					<p>
+						<i class="fas fa-phone"></i><a href="tel:123-456-789">123-456-789</a>
+					</p>
+					<p>
+						<i class="fas fa-envelope"></i><a href="mailto:abc@example.com">abc@example.com</a>
+					</p>
+					<ul class="socials">
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="footer-section links">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="video.html">Video</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-section contact">
+					<h2>Contact us</h2>
+					<form action="index.html" method="post">
+						<input type="email" name="email" class="text-input contact-input"
+							placeholder="Your email address...">
+						<textarea name="message"
+							class="text-input
+                                    contact-input"
+							placeholder="Your message..."></textarea>
+						<button type="submit" class="btn btn-big">
+							<i class="fas fa-envelope"></i>Send
+						</button>
+					</form>
+
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; | Designed by Abhay Bava</p>
+			</div>
+
+		</footer>
+		<script src="./javascript/scripts.js"></script>
+		<script src="https://kit.fontawesome.com/5b5ffe33d5.js"
+			crossorigin="anonymous"></script>
+	</div>
+</body>
+
+</html>
